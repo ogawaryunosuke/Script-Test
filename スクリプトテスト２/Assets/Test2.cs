@@ -11,7 +11,7 @@ public class Test2 : MonoBehaviour
 
         for (int i = 0; i < array.Length; i++)
         {
-            if ( array[i] >= 5)
+            if ( array[i] <= 5)
             {
                 Debug.Log(array[i]);
             }
