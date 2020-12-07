@@ -16,6 +16,14 @@ public class Test2 : MonoBehaviour
                 Debug.Log(array[i]);
             }
         }
+
+        for (int i = 0; i > array.Length; i--)
+        {
+            if ( array[i] >= 0)
+            {
+                Debug.Log(array[i]);
+            }
+        }
     }
     
 
